@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/index.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Add a Review</title>
+</head>
+<body>
+    <div id="container">
+        @model restaurant
+        <h1>Write a new Review</h1>
+        <form asp-action="Write" asp-controller="Home" method="POST">
+            <div id="review">
+            <span asp-validation-for="ReviewName" style="color:red"></span> 
+            <label asp-for="ReviewName">Reviewer Name: </label> 
+            <input class="form-control" type="text" asp-for="ReviewName">
+
+            <span asp-validation-for="RestName" style="color:red"></span> 
+            <label asp-for="RestName">Restaurant Name:</label> 
+            <input class="form-control" type="text" asp-for="RestName">
+
+            <span asp-validation-for="Review" style="color:red"></span> 
+            <p>Reviews:</p>
+            <textarea asp-for="Review"  cols="10" rows="10"></textarea>
+            
+            <span asp-validation-for="VisitDate" style="color:red"></span> 
+            <label asp-for="VisitDate">Vist Date:</label> 
+            <input class="form-control" type="date" asp-for="VisitDate">
+
+            <span asp-validation-for="Star" style="color:red"></span> 
+            <p>Stars:</p>
+            <select asp-for="Star" >
+                @for(int i = 1; i<=5; i++){
+                    <option value="@i">@i</option>
+                }
+            </select>
+            </div>
+            <button type="submit" class="btn btn-success">Create new Review</button>
+            <a href="/reviews"><button class="btn btn-warning">Go to Reviews</button></a>
+        </form>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#container{
+    width:80% !important;
+    margin-left:10% !important;
+    border: 1px groove black !important;
+}
+textarea{
+    width:100%;
+    resize: none !important;
+}
+
+select{
+    display: inline-block !important;
+}
+
+p{
+    display: inline-block !important;
+}
+
+button{
+    display: inline-block;
+}

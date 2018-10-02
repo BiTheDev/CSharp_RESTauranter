@@ -1,0 +1,11 @@
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.deps.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.dev.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.pdb
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csprojResolveAssemblyReference.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csproj.CoreCompileInputs.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfoInputs.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfo.cs
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day10/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.pdb
